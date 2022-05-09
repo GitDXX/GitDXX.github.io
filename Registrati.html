@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Registrati</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/x-icon" href="Immagini/ 
+    CreepySmile.png">
+  </head>
+  <body background="Immagini/Cielo.jpg" style="background-size: cover; width: 100%;">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+  </script>
+  <script>
+  function showPwd() {
+      var input = document.getElementById('pwd');
+      if (input.type === "password") {
+          input.type = "text";
+          } else {
+          input.type = "password";
+        }
+      }
+  </script>
+  <div>
+  <h1 style="text-shadow: 3px 3px rgb(194, 194, 5);"> Registrati </h1>
+  <nav>
+ <p> 
+ <ion-icon name="bookmark-outline"> </ion-icon> <a href="index.html"> Intro </a> |  
+ <ion-icon name="home-outline"> </ion-icon> <a href="Home.html">  Home </a> |
+ <ion-icon name="podium-outline"> </ion-icon> <a  href="Crediti.html"> Distribuzione Crediti </a> |
+ <ion-icon name="reader-outline"> </ion-icon> <a href="Poesia.html"> Poesia </a> |
+ <ion-icon name="person-outline"> </ion-icon> <a  href="Login.html">  Login </a> | 
+ <ion-icon name="folder-open-outline" ></ion-icon> <a  href="Login-A.html">  Archivi-Staff </a> |  
+ <ion-icon name="ellipsis-horizontal-outline"> </ion-icon> <a href="Altro.html"> Altro </a> 
+ </p>
+ </nav>
+
+  <input type="text" list="suggestions" size="50px" placeholder="Cerca... &#128269">
+  <datalist id="suggestions">
+  <option value="Home"> Website Creator, Sommario </option>
+  <option value="Profilo"> Accedi o Registrati </option>
+  <option value="Distribuzione Crediti">  Cos'è e Come Funziona </option>
+  <option value="Poesia"> Sfoglia le poesie </option>
+  <option value="Altro"> Vedi Altro </option>
+  </datalist>
+  </input>
+  
+  <p style="width: 40%; margin-bottom: 0px; margin-top: 20px; background-color: yellow; text-align: center; border-radius: 10px; padding: 12px; border: 2px solid black; "> <b> REGISTRATI! </b> </p>
+  <section style="margin-top: 0px; background-color: yellow; padding: 20px; padding-top: 5px; padding-right: 40px; border-radius: 10px; border: 2px solid yellowgreen;">
+  <form action="Profilo.html" method: "GET"> 
+  <p>
+  <label for="name"> Nome </label>
+  <input type="text" name="name" id="name" placeholder="inserisci nome" required>
+  <p>
+  <label for="surname"> Cognome </label>
+  <input type="text" name="surname" id="surname" placeholder="inserisci cognome" required>
+  </p>
+  <p>
+  <label for="email"> Email </label>
+  <input type="email" name="email" id="email" placeholder="inserisci email" required>
+  </p>
+  <p>
+  <label for="age"> Anni </label>
+  <input type="number" name="age" id="age" min="1" max="150"  step="1" placeholder="inserisci età" >
+  </p>
+  <p>
+  <label for="date"> Compleanno </label>
+  <input type="date" name="date" id="date" min="1-1-1900">
+  </p>
+  <p> 
+  <label for="gender"> Genere </label>
+  <input type="text" list="gender" name="gender" placeholder="inserisci genere">
+  <datalist id="gender">
+  <option> Maschio </option>
+  <option> Femmina </option>
+  <option> Preferisco non Specificarlo </option>
+  </datalist>
+  </p>
+  <p>
+  <label> Password </label>
+  <input type="password" id="pwd" placeholder="inserisci password" required>
+  <input style="width: 101%;" type="button" onclick="showPwd()" value="Mostra/nascondi password">
+  </p>
+   <p> Hai già un account? <a href="Login.html"> Accedi </a> <ion-icon name="person-outline"></ion-icon> </p>
+  <div>
+  <button type="reset"> Reset </button>
+  <button type="submit" style="margin-left: 8px;"> <a href="Home.html"> Invia </a> </button>
+  </div>
+  </form>
+  </section>
+  <p style="clear: both;">
+  <br>
+  <hr>
+  <h2 id="Creditii"> SEGUI ANCHE... </h2>
+  <table>
+  <tr style="text-shadow: 2px 2px rgb(194, 194, 5)">
+  <th> CONTATTAMI  </th>
+  <th> CREDITI ARTICOLO  </th>
+  <th> GUARDA ANCHE...  </th>
+  </tr>
+  <ul>
+  <tr>
+  <td> 
+  <li> <ion-icon name="logo-instagram"></ion-icon> <a  href="https://www.instagram.com/john_xina1989/"> Instagram </a> </li>
+  </td>
+  <td> <li> John Xina </li> </td>
+  <td> <li> <a href="https://youtu.be/dgNvPwwMcQY"> John Xina- Ice Cream </a> </li> </td>
+  </tr>
+  <tr>
+  <td> <li> <ion-icon name="paper-plane-outline"></ion-icon> <a href="https://t.me/realjohnxina">Telegram </a> </li> </td>
+  <td> <li> The Wok </li> </td>
+  <td> <li> <a href="https://youtu.be/zlHfvPLn8JE"> John Xina VS The Wok </a> </li> </td>
+  </tr> 
+  <tr>
+  <td> <li> <ion-icon name="people-circle-outline"></ion-icon> <a href="https://www.tiktok.com/@john_xina_2?"> TikTok </a> </li> </td>  
+  </tr>
+  <tr>
+  <td> <li> <ion-icon name="logo-twitter"></ion-icon> <a href="https://twitter.com/L9Xina"> Twitter </a> </li> </td>  
+  </tr>
+  <tr>
+  <td> <li> <ion-icon name="logo-discord"></ion-icon> <a href="https://discord.gg/WBxgVmWK"> Discord </a> </li> </td>  
+  </tr>
+  </ul>
+ </table>
+ <footer>
+  <hr>
+  <h2 style="margin-left: 250px; margin-right: 250px; border-radius: 15px; padding: 12px;"> Lascia un Feedback! </h2>
+
+  <input type="range" value="0" min="0" max="10" style="width: 98%;">
+  <button type="submit"> <a href="Feedback.html"> Invia </a> </button>
+  <br>
+  <br>
+  <p style="text-shadow: 2px 2px white; font-size: 20px;">  © 2021-2021 Only individual contributors. <span style="color: blue; font-size: 23px;"> Content is available under these licenses. </span> </p>
+    
+  <span style="font-size: 21px;">
+  <a href="https://it.m.wikipedia.org/wiki/Termini"> <b>  Terms |  </b> </a> 
+  <a href="https://it.m.wikipedia.org/wiki/Privacy"> <b> Privacy | </b> </a> 
+  <a href="https://it.m.wikipedia.org/wiki/Cookies"> <b> Cookies </b> </a> 
+  </span>
+ </footer>
+ </p>
+ </div>
+ </body>
+</html>

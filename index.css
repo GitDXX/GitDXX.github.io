@@ -1,0 +1,94 @@
+body {
+Background-color: aqua;
+margin: 0px;
+margin-top: 0px;
+}
+div {
+width: 90%;
+margin-left: 50px;
+margin-right: 50px;
+}
+nav {
+Background-color: yellow;
+padding-top: 2px;
+Padding-bottom: 2px;
+}
+h2 {
+margin-left: 16px;
+margin-bottom: 0px;
+font-size: 30px;
+font-family: verdana;
+border-radius: 10px;
+}
+h3 {
+margin-top: 0px;
+margin-left: 5px;
+margin-right: 30px;
+text-align: end;
+font-size: 19px;
+font-family: verdana;
+}
+header {
+background-color: cadetblue;
+font-size: 23px;
+font-family: verdana;
+text-align: center;
+color: white;
+float: left;
+padding-top: 5px;
+padding-bottom: 5px;
+border-bottom: 1px solid darkgray;
+border-top: 1px solid darkgray;
+}
+section {
+width: 50%;
+float: left;
+margin-left: 5px;
+margin-right: 5px;
+}
+a:visited {
+color: blue;
+}
+table {
+font-family: verdana;
+font-size: 19px;
+color:black;
+background-color: yellow;
+padding: 20px;
+padding-bottom: 30px;
+width: 100%;
+text-align: justify;
+border: 1px solid yellowgreen;
+}
+.flexbox {
+clear: both;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+article p {
+background-color: azure;
+width: 300px;
+margin:20px 10px;
+padding: 50px;
+border: 2px solid cornflowerblue;
+border-radius: 12px;
+text-shadow: 1px 1px gray;
+transition: all 0.8s;
+cursor: pointer;
+overflow: hidden;
+}
+article p:hover {
+background-color: rgb(68, 202, 247);
+text-shadow: 2px 1px cornflowerblue;
+font-size: 18px;
+border-color: gainsboro;
+}
+button {
+background: cadetblue;
+color: white;
+font-size: 16px;
+font-family: verdana;
+padding: 8px;
+border-radius: 10px;
+}

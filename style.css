@@ -1,0 +1,118 @@
+body {
+background-image: linear-gradient (to top right, rgb(0, 247, 255) 0%, rgb(46, 201, 221) 50%, rgb(39, 137, 167) 100%);
+animation: gradient 15s ease-infinite;
+background-color: aqua;
+width: auto;
+}
+div {
+width: 90%;
+margin-left: 50px;
+margin-right: 50px;
+}
+h1 {
+background-color: yellow;
+padding: 8px;
+border-radius: 10px;
+text-align: center;
+font-size: 28px;
+font-family: verdana;
+border: 1px solid yellowgreen; 
+}
+h2 {
+font-size: 20px;
+background-color: yellow;
+border-radius: 10px;
+padding: 10px;
+text-align: center;
+border: 1px solid yellowgreen;
+}
+
+nav {
+background-color: yellow;
+padding: 5px;
+width: auto;
+border-radius: 10px;
+margin-bottom: 10px;
+font-size: 20px;
+border: 2px solid yellowgreen;
+}
+article{
+background-color: yellow;
+border-radius: 10px;
+padding: 10px;
+float: left;
+margin-bottom: 15px;
+border: 2px solid yellowgreen;
+border-top: 1px solid yellowgreen;
+}
+img {
+float: right;
+width: 50%;
+height: 300px;
+border-radius: 10px;
+filter: brightness(110%); 
+-webkit-filter: brightness(110%);
+}
+section {
+width: 70%;
+float: left;
+}
+aside {
+background-color: yellow;
+width: 28%;
+float: right;
+border-radius: 10px;
+height: 300px;
+border: 2px solid yellowgreen;
+}
+header {
+clear: both;
+background-color: yellow;
+width: 70%;
+border-radius: 10px;
+padding-top: 10px;
+padding-bottom: 3px;
+border: 2px solid yellowgreen;
+}
+table {
+font-family: verdana;
+color:black;;
+background-color: yellow;
+border-radius: 10px;
+padding: 5px;
+width: 100%;
+text-align: justify;
+border: 1px solid yellowgreen;
+}
+a:visited {
+color: blue;
+}
+input {
+padding: 13px;
+width: 98%;
+border-radius: 10px;
+outline: none !important;
+border-width: 1px;
+box-shadow: 0 0 10px gray;
+}
+button {
+margin-top: 10px;
+float: center;
+padding: 10px;
+width: 20%;
+border-radius: 10px;
+}
+@keyframes gradient {
+0% {
+background-position: 0% 50%;
+}
+50% {
+background-position: 100% 50%;
+}
+100% {
+background-position: 0% 50%;
+}
+}
+.cjak {
+background-color: rgb(68, 202, 247);
+}
